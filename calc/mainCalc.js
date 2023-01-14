@@ -89,7 +89,7 @@ function compile(str) {
 // ----------------------------------------------------------------------------
 
 function evaluate(str) {
-    // your code here
+   
     let strings = compile(str).split(' ');
     let res = [];
     for (char of strings) {
@@ -137,7 +137,7 @@ function clickHandler(event) {
 
 
 window.onload = function () {
-    // your code here
+   
     let buttons = document.querySelector(".buttons");
     buttons.onclick = clickHandler; 
 };
